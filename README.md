@@ -9,9 +9,9 @@
 Among women with node-positive breast cancer, what is the effect of hormone therapy (tamoxifen) on recurrence-free survival (RFS)? How well do a Cox model and a random survival forest predict individual risk?
 
 ## Data
-GBSG2 (German Breast Cancer Study Group 2) comprises 686 women with primary node-positive breast cancer, with 299 recurrence-or-death events over a median follow-up of about 3 years. The data are loaded from `scikit-survival` (`load_gbsg2`), so nothing needs to be downloaded or shared. The original trial is described in Schumacher et al., *J Clin Oncol* 1994.
+GBSG2 (German Breast Cancer Study Group 2) comprises 686 women with primary node-positive breast cancer, with 299 recurrence-or-death events over a median observed time of about 3 years. The data are loaded from `scikit-survival` (`load_gbsg2`), so nothing needs to be downloaded or shared. The original trial is described in Schumacher et al., *J Clin Oncol* 1994.
 
-**Why a causal approach on trial data?** Hormone-therapy allocation is strongly unbalanced in this dataset. Of those treated, 76% are postmenopausal, compared with 48% of the untreated, and treated women are older (Table 1, SMD > 0.5). The comparison is therefore analysed as an observational exposure, the way it would be in administrative or registry data.
+**Why a causal approach on trial data?** Hormone-therapy allocation is strongly unbalanced in this dataset. Of those treated, 76% are postmenopausal, compared with 48% of the untreated, and treated women are older (Table 1, SMD > 0.5). The comparison is therefore analyzed as an observational exposure, the way it would be in administrative or registry data.
 
 ## Pipeline
 | Step | Module | What it does |
