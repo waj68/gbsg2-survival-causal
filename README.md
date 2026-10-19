@@ -2,6 +2,7 @@
 ### A reproducible survival, causal-inference and machine-learning pipeline in Python (GBSG2)
 
 **Author:** Abdul Wajid, MBBS, MSc, MS, PhD — physician-epidemiologist
+
 **Status:** v0.1 (October 2026)
 
 ## Question
