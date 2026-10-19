@@ -1,0 +1,9 @@
+variable,smd_unweighted,smd_weighted
+age,0.574,0.002
+postmenopausal,0.613,0.002
+tumour_size_mm,0.057,0.016
+grade_2,0.05,0.012
+grade_3,0.117,0.014
+log_pos_nodes,0.057,0.019
+log_prog_rec,0.039,0.001
+log_estr_rec,0.192,0.007

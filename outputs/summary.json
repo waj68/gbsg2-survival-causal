@@ -1,0 +1,68 @@
+{
+  "n": 686,
+  "events": 299,
+  "qc_checks": {
+    "non_positive_follow_up": 0,
+    "age_outside_18_100": 0,
+    "duplicate_rows": 0
+  },
+  "logrank_p": 0.0034,
+  "cox_adjusted_hr_hormone": {
+    "HR": 0.682,
+    "HR_lcl": 0.53,
+    "HR_ucl": 0.878,
+    "p": 0.003
+  },
+  "ph_global_violation_any": true,
+  "iptw_marginal_hr": {
+    "estimand": "Marginal HR (IPTW, ATE)",
+    "HR": 0.669,
+    "HR_lcl": 0.511,
+    "HR_ucl": 0.875,
+    "p": 0.0034
+  },
+  "ph_sensitivity_stratified": {
+    "model": "Cox stratified by grade, age_band",
+    "HR": 0.665,
+    "HR_lcl": 0.513,
+    "HR_ucl": 0.861,
+    "p": 0.002
+  },
+  "iptw_bootstrap": [
+    {
+      "estimand": "Marginal HR (IPTW)",
+      "estimate": 0.669,
+      "boot_lcl": 0.525,
+      "boot_ucl": 0.843,
+      "n_boot": 300
+    },
+    {
+      "estimand": "5-year RFS difference (IPTW)",
+      "estimate": 0.173,
+      "boot_lcl": 0.088,
+      "boot_ucl": 0.254,
+      "n_boot": 300
+    }
+  ],
+  "e_value": {
+    "e_value_point": 1.97,
+    "e_value_ci": 1.42
+  },
+  "ess_iptw": 619.8,
+  "max_smd_unweighted": 0.613,
+  "max_smd_weighted": 0.019,
+  "model_performance": [
+    {
+      "model": "Cox PH",
+      "harrell_c": 0.705,
+      "uno_c_ipcw": 0.702,
+      "integrated_brier": 0.145
+    },
+    {
+      "model": "Random survival forest",
+      "harrell_c": 0.695,
+      "uno_c_ipcw": 0.688,
+      "integrated_brier": 0.148
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+,test_statistic,p,ph_violation_flag_p<0.05
+age,3.914,0.048,True
+grade_2,1.329,0.249,False
+grade_3,4.099,0.043,True
+hormone_tx,0.274,0.601,False
+log_estr_rec,1.884,0.17,False
+log_pos_nodes,0.671,0.413,False
+log_prog_rec,0.045,0.831,False
+postmenopausal,0.023,0.878,False
+tumour_size_mm,0.016,0.9,False

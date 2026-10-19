@@ -1,0 +1,3 @@
+model,harrell_c,uno_c_ipcw,integrated_brier
+Cox PH,0.705,0.702,0.145
+Random survival forest,0.695,0.688,0.148

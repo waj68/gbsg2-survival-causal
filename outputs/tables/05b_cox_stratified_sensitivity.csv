@@ -1,0 +1,2 @@
+model,HR,HR_lcl,HR_ucl,p
+"Cox stratified by grade, age_band",0.665,0.513,0.861,0.002

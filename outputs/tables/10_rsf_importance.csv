@@ -1,0 +1,10 @@
+feature,mean_drop_in_c,sd
+log_pos_nodes,0.0893,0.0226
+log_prog_rec,0.0372,0.0125
+age,0.0181,0.0055
+hormone_tx,0.0106,0.0042
+log_estr_rec,0.0061,0.014
+grade_2,0.0049,0.001
+grade_3,0.0005,0.0015
+tumour_size_mm,0.0004,0.0053
+postmenopausal,0.0001,0.0006
